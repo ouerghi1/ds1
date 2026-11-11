@@ -1,0 +1,36 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F5FA">
+
+    <TextView
+        android:id="@+id/resultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOURNEY RESULT"
+        android:textColor="#172B4D"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/resultDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Your result appears here"
+        android:textColor="#526581"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="25dp"
+        android:layout_margin="25dp"
+        app:layout_constraintTop_toBottomOf="@id/resultTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
